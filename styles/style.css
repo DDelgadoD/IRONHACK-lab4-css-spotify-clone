@@ -6,3 +6,125 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin:0;
+}
+
+header{
+    position:fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header img{
+    width: 200px;
+    margin-left: 2%;
+    margin-bottom: 0.5%;
+}
+
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: warp;
+}
+
+nav li {
+    list-style: none;
+}
+
+.landing{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    aspect-ratio: 1.5;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.landing p{
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+.landing article{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.s2 p{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.s2 p:first-child{
+    font-weight: bolder;
+    text-decoration: underline #00B172;
+    text-underline-offset: 1rem;
+    margin-bottom: 5%;
+
+}
+
+.green{
+    color: #00B172;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.props{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;     
+}
+
+@media only screen and (min-width: 600px){
+    .props{
+        flex-direction: column;   
+    }
+}
+
+.props img{
+    display: block;
+    width: 50%;
+    aspect-ratio: 1;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.s3{
+    width: auto;
+    background-color: #00B172;
+    margin: 4%;
+}
+
+.cont{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+
+}
+
+.logo-spot{
+    width: 10%;
+    aspect-ratio: 1; 
+}
+
+.coses{
+    display:flex; 
+    flex-direction:column;
+}
+
+.app-spot{
+    width: 25%; 
+}
