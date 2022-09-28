@@ -2,6 +2,9 @@
 
 # LAB | HTML & CSS - Spotify Clone
 
+## My Solution
+[Spoticlone](https://ddelgadod.github.io/IRONHACK-lab4-css-spotify-clone/)
+
 ## Introduction
 
 Everybody likes music, right? Odds are, if you do, you have heard of **Spotify**.
